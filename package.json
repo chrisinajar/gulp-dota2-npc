@@ -1,6 +1,6 @@
 {
   "name": "gulp-dota2-spellbook",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compile the dota 2 spellbook into a proper npm_abilties_custom.txt",
   "main": "index.js",
   "scripts": {
