@@ -1,14 +1,14 @@
 {
-  "name": "gulp-dota2-spellbook",
+  "name": "gulp-dota2-npc",
   "version": "0.1.0",
-  "description": "Compile the dota 2 spellbook into a proper npm_abilties_custom.txt",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisinajar/gulp-dota2-spellbook.git"
+    "url": "git+https://github.com/chrisinajar/gulp-dota2-npc.git"
   },
   "keywords": [
     "gulp",
@@ -17,9 +17,9 @@
   "author": "Chris Vickery <chrisinajar@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chrisinajar/gulp-dota2-spellbook/issues"
+    "url": "https://github.com/chrisinajar/gulp-dota2-npc/issues"
   },
-  "homepage": "https://github.com/chrisinajar/gulp-dota2-spellbook#readme",
+  "homepage": "https://github.com/chrisinajar/gulp-dota2-npc#readme",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",

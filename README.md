@@ -1,16 +1,17 @@
-# Gulp Dota 2 Spellbook
-Compile data driven ability data in the Dota 2 Spellbook format into a proper `npm_abilities_custom.txt`
+# Gulp Dota 2 NPC Custom File Generator
+Compile individual .txt files into npc custom files.
 
 # Installation
-`npm i --save-dev gulp-dota2-spellbook`
+`npm i --save-dev gulp-dota2-npc`
 
 ## Usage
 ```js
 var gulp = require('gulp');
-var spellbook = require('gulp-dota2-spellbook');
+var dotaNPC = require('gulp-dota2-npc');
 
 gulp.task('abilities', function () {
-	return spellbook('./npc/abilities/**/*.txt')
+	return gulp.src('./npc/abilities/**/*.txt')
+		.pipe(dotaNPC('abilities'))
 		.pipe(gulp.dest('./npc'));
 });
 ```
