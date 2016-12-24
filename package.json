@@ -23,7 +23,8 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-transform": "^1.1.0"
+    "gulp-transform": "^1.1.0",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
     "semistandard": "^9.2.1",
